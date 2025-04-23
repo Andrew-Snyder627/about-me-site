@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 2px 6px;
+      border-radius: 5px;
+      color: white;
+      margin-left: 5px;
+    }
+    .tag.wow { background-color: #6a0dad; }
+    .tag.personal { background-color: #f39c12; }
+    .tag.education { background-color: #3498db; }
+    .tag.project { background-color: #2ecc71; }
+    .tag.career { background-color: #e67e22; }
+  </style>
+</head>
+<body>
+  <h1><%= title %></h1>
+
+  <% if (filter) { %>
+    <p>Currently filtered by: <strong><%= filter %></strong></p>
+    <p><a href="/timeline">Clear filter</a></p>
+  <% } %>
+
+  <ul>
+    <% milestones.forEach(m => { %>
+      <li>
+        <strong><%= m.date %></strong> — 
+        <%= m.title %>
+        <% if (m.type) { %>
+          <span class="tag <%= m.type %>"><%= m.type %></span>
+        <% } %>
+      </li>
+    <% }) %>
+  </ul>
+
+  <h3>Filter by Type</h3>
+  <ul>
+    <li><a href="/timeline?type=wow">🎮 WoW</a></li>
+    <li><a href="/timeline?type=personal">🏠 Personal</a></li>
+    <li><a href="/timeline?type=education">📘 Education</a></li>
+    <li><a href="/timeline?type=project">💻 Projects</a></li>
+    <li><a href="/timeline?type=career">🧑‍💼 Career</a></li>
+  </ul>
+
+  <a href="/">← Back to Home</a>
+</body>
+</html>

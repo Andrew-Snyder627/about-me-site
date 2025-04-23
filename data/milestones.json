@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2023-09-01",
+    "title": "Moved into new home",
+    "type": "personal"
+  },
+  {
+    "date": "2023-12-10",
+    "title": "Earned CAPM certification",
+    "type": "career"
+  },
+  {
+    "date": "2024-10-05",
+    "title": "Got married 💍",
+    "type": "personal"
+  },
+  {
+    "date": "2025-02-01",
+    "title": "Started Turing School of Software Design",
+    "type": "education"
+  },
+  {
+    "date": "2025-03-14",
+    "title": "Passed Module 1 at Turing",
+    "type": "education"
+  },
+  {
+    "date": "2025-04-23",
+    "title": "Launched personal site with Node.js",
+    "type": "project"
+  },
+  {
+    "date": "2025-04-22",
+    "title": "WoW: 5/8 Mythic progress, 5th boss defeated (Season 2)",
+    "type": "wow"
+  },
+  {
+    "date": "2025-06-19",
+    "title": "Expecting our baby girl 🎉",
+    "type": "personal"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Little Shop API",
+    "description": "A group Rails project for managing merchants and items using RESTful API endpoints.",
+    "tech": ["Rails", "PostgreSQL", "RSpec"]
+  },
+  {
+    "title": "About Me Node Site",
+    "description": "This site you're on! Built with Node.js + Express to showcase my journey and hobbies.",
+    "tech": ["Node.js", "Express", "HTML/CSS"]
+  }
+]

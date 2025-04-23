@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>My Projects</h1>
+  <ul>
+    <% projects.forEach(project => { %>
+      <li>
+        <strong><%= project.title %></strong><br>
+        <em><%= project.description %></em><br>
+        <small>Technologies: <%= project.tech.join(', ') %></small>
+      </li>
+    <% }) %>
+  </ul>
+
+  <a href="/">← Back to Home</a>
+</body>
+</html>
