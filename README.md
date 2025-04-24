@@ -26,6 +26,16 @@ Whether I’m tracking **milestones at Turing**, slaying bosses in **World of Wa
 
 ---
 
-## 📁 Project Structure
+## 🔗 Planned Features
 
-about-me-site/ ├── data/ # JSON files for milestones, goals, hobbies, and projects │ ├── goals.json │ ├── hobbies.json │ ├── milestones.json │ └── projects.json ├── public/ # Static assets like CSS │ └── style.css ├── views/ # EJS templates │ ├── about.ejs │ ├── hobbies.ejs │ ├── index.ejs │ ├── projects.ejs │ └── timeline.ejs ├── .gitignore ├── index.js # Main Express server ├── package.json └── README.md
+- [ ] Add a blog section (Markdown or JSON-based post engine)
+- [ ] Deploy publicly on [Render](https://render.com/)
+- [ ] Use EJS partials for consistent header/footer layout
+- [ ] Integrate Blizzard API to display real-time WoW character progress
+- [ ] Add milestone entry form to submit updates via UI
+- [ ] Add dark mode toggle (bonus flair ✨)
+- [ ] Create a personal dashboard homepage with:
+  - [ ] WoW progress badge
+  - [ ] Most recent project
+  - [ ] Motivational quote of the day
+- [ ] Add screenshots and visuals to `README.md`
